@@ -76,7 +76,7 @@ export default async function RoomDetailsPage({ params }: { params: Promise<{ sl
 
             <h3 className="text-white font-serif text-2xl mb-6">Premium Amenities</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-4">
-              {room.amenities.map((amenity, idx) => (
+              {room.amenities.map((amenity: string, idx: number) => (
                 <div key={idx} className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
                   <span className="text-foreground-secondary text-sm">{amenity}</span>

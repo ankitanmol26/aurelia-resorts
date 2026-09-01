@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
-import type { Room } from "./rooms";
-import type { Offer } from "./offers";
+import type { Room } from "@/data/rooms";
+import type { Offer } from "@/data/offers";
 
 export async function getRooms(): Promise<Room[]> {
   try {
