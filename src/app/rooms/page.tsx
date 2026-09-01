@@ -10,7 +10,7 @@ export default async function RoomsPage() {
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1582719478250-c89af14fb422?auto=format&fit=crop&w=2000&q=80"
+            src="/images/oceanfront_suite.jpg"
             alt="Aurelia Resorts Accommodations"
             fill
             className="object-cover"

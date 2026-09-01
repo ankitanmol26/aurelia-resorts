@@ -84,8 +84,14 @@ export default function Footer() {
         {/* Bottom Section: Legal & Social */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6 pt-8 border-t border-white/5 text-xs">
           
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col gap-2">
             <p>&copy; 2026 Aurelia Resorts. All rights reserved.</p>
+            <p className="text-white/40">
+              Designed & Built by{" "}
+              <a href="https://github.com/ankitanmol26" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-white transition-colors">Ankit Kumar Singh</a>
+              {" "}at VR1 |{" "}
+              <a href="https://www.linkedin.com/in/ankit-kumar-singh-026b16326/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+            </p>
           </div>
           
           <div className="flex items-center gap-6">

@@ -8,6 +8,7 @@ const navLinks = [
   { name: "Experiences", href: "/experiences" },
   { name: "Dining", href: "/dining" },
   { name: "Wellness", href: "/wellness" },
+  { name: "About Us", href: "/about" },
 ];
 
 export default function Navbar() {

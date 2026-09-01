@@ -493,7 +493,7 @@ export default async function Home() {
         {/* Cinematic Background */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1582719478250-c89af14fb422?auto=format&fit=crop&w=2000&q=80"
+            src="/images/oceanfront_suite.jpg"
             alt="Aurelia Resorts Luxury Experience"
             fill
             className="object-cover transition-transform duration-[3s] hover:scale-105"
