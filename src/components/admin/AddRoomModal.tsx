@@ -19,7 +19,8 @@ export default function AddRoomModal() {
     capacity: 2,
     description: "",
     amenities: [],
-    image: ""
+    image: "",
+    featured: false
   };
 
   const [formData, setFormData] = useState<Room>(emptyRoom);
