@@ -1,5 +1,6 @@
 import { getRooms } from "@/lib/api";
 import EditRoomModal from "@/components/admin/EditRoomModal";
+import AddRoomModal from "@/components/admin/AddRoomModal";
 
 export default async function AdminRoomsPage() {
   const rooms = await getRooms();
@@ -11,6 +12,7 @@ export default async function AdminRoomsPage() {
           <h1 className="text-3xl font-serif text-white mb-2">Rooms Management</h1>
           <p className="text-foreground-secondary">Edit your accommodations, pricing, and details.</p>
         </div>
+        <AddRoomModal />
       </div>
 
       <div className="bg-background-secondary border border-white/5 rounded-lg overflow-hidden">

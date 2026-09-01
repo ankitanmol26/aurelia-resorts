@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { LayoutDashboard, BedDouble, Tag, Settings, LogOut } from "lucide-react";
+import { LayoutDashboard, BedDouble, Tag, Settings } from "lucide-react";
+import LogoutButton from "@/components/admin/LogoutButton";
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -19,21 +20,18 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <BedDouble className="w-5 h-5" />
             <span className="text-sm font-medium tracking-wide">Rooms</span>
           </Link>
-          <Link href="/admin" className="flex items-center gap-3 px-4 py-3 text-foreground-secondary hover:text-white hover:bg-white/5 rounded transition-colors opacity-50 cursor-not-allowed">
+          <Link href="/admin/offers" className="flex items-center gap-3 px-4 py-3 text-foreground-secondary hover:text-white hover:bg-white/5 rounded transition-colors">
             <Tag className="w-5 h-5" />
             <span className="text-sm font-medium tracking-wide">Offers</span>
           </Link>
-          <Link href="/admin" className="flex items-center gap-3 px-4 py-3 text-foreground-secondary hover:text-white hover:bg-white/5 rounded transition-colors opacity-50 cursor-not-allowed">
+          <Link href="/admin/settings" className="flex items-center gap-3 px-4 py-3 text-foreground-secondary hover:text-white hover:bg-white/5 rounded transition-colors">
             <Settings className="w-5 h-5" />
             <span className="text-sm font-medium tracking-wide">Settings</span>
           </Link>
         </nav>
 
         <div className="p-4 border-t border-white/5">
-          <Link href="/" className="flex items-center gap-3 px-4 py-3 text-accent hover:text-white transition-colors">
-            <LogOut className="w-5 h-5" />
-            <span className="text-sm font-medium tracking-wide">Exit to Site</span>
-          </Link>
+          <LogoutButton />
         </div>
       </aside>
 
