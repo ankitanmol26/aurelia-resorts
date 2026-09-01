@@ -1,0 +1,41 @@
+[
+  {
+    "id": "r1",
+    "slug": "oceanfront-suite",
+    "name": "Oceanfront Suite",
+    "category": "Suite",
+    "description": "Awake to the sound of waves in this expansive suite featuring panoramic ocean views and a private plunge pool.",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89af14fb422?auto=format&fit=crop&w=1200&q=80",
+    "price": 100000,
+    "capacity": 2,
+    "size": 85,
+    "amenities": ["Private Pool", "Ocean View", "Butler Service"],
+    "featured": true
+  },
+  {
+    "id": "r2",
+    "slug": "botanical-villa",
+    "name": "Botanical Villa",
+    "category": "Villa",
+    "description": "Nestled within lush tropical gardens, this secluded villa offers ultimate privacy and a serene outdoor bath.",
+    "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1200&q=80",
+    "price": 78000,
+    "capacity": 2,
+    "size": 110,
+    "amenities": ["Private Garden", "Outdoor Bath", "Exclusive Lounge"],
+    "featured": true
+  },
+  {
+    "id": "r3",
+    "slug": "aurelia-penthouse",
+    "name": "Aurelia Penthouse",
+    "category": "Penthouse",
+    "description": "The crown jewel of our resort, featuring two bedrooms, a wraparound terrace, and unmatched luxury.",
+    "image": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?auto=format&fit=crop&w=1200&q=80",
+    "price": 290000,
+    "capacity": 4,
+    "size": 250,
+    "amenities": ["Wraparound Terrace", "Private Chef", "Helipad Access"],
+    "featured": true
+  }
+]
